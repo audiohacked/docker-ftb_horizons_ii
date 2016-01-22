@@ -2,9 +2,9 @@
 FROM java:7-jre
 MAINTAINER Sean Nelson <audiohacked@gmail.com>
 
-ARG BASE_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBHorizonsII"
-ARG FTB_VERSION="1_2_0"
-ARG SERVER_FILE="FTBHorizonsIIServer.zip"
+ENV BASE_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBHorizonsII"
+ENV FTB_VERSION="1_2_0"
+ENV SERVER_FILE="FTBHorizonsIIServer.zip"
 ENV SERVER_PORT 25565
 
 WORKDIR /minecraft
